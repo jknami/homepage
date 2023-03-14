@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML iframe</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<h1>HTML iframe</h1>
+<hr>
+HTML iframe이란 inline frame의 약자로, 웹 페이지안에 또 다른 웹페이지를 삽입하는 것을 의미합니다
+&ltiframe src="삽입하는 웹페이지 URL" title="내용"&gt&lt/iframe&gt
+
+<ul>
+<li>src : source의 약자로, 삽입하려는 웹페이지의 주소를 입력한다.</li>
+<li>title : 웹 브라우저에게 해당 iframe이 어떤 iframe인지를 알린다. 이 속성은 필수사항은 아니지만 권장한다.</li>
+</ul>
+<h1>iframe을 이용하여 웹 페이지에 다른 웹 페이지 삽입하기</h1>
+<iframe src="https://wikidocs.net/" title="모두" width="50%" height="300px"></iframe>
+
+<ol>
+ <li><a href="https://wikidocs.net/" target="frame">위키독스</a></li>
+  <li> <a href="https://ko.wikipedia.org/wiki/HTML" target="frame">위키트리 HTML5</a></li>
+</ol>    
+<br>
+<iframe src="https://ko.wikipedia.org/wiki/HTML" title="내용" name="frame" width="100%" height="300px"></iframe>
+
+
+</body>
